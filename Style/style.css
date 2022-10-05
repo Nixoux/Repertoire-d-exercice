@@ -1,22 +1,107 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&family=Trispace:wght@300&display=swap');
 
 
+.header {
+    background-color: #050505;
+    padding: 30px;
+    text-align: center;
+}
+
 body{
-    background-color: #28866A;
+    background-color: #050505;
 }
 
-a{
-    font-family: 'Trispace';
+
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+  }  
+
+#navbar{
+    overflow: hidden;
+    background-color: #050505;
+    width: 100%;
+
 }
 
+#navbar li:hover{
+    background-color: aliceblue;
+
+}
+
+#navbar li.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+.container {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky + .container {
+    padding-top: 60px;
+}
+
+.menuH{
+    display: flex;
+    justify-content: center;
+
+}
+            li{
+                font-family: 'Trispace';
+                text-decoration: none;
+                color: aliceblue;
+                margin: 5px;
+                font-size: 20px;
+            }
+
+            .section {
+                background-color: #239f76;
+                border: 1px solid #238f76;
+                list-style-type: none;
+                padding: 2px;
+                cursor: pointer;
+                border-radius: 5px;
+                
+            }
+
+              
 h1{
     font-family: 'space mono';
-    font-size: 350%;
+    color: aliceblue;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 h2{
     font-family: 'Trispace';
+    color: aliceblue;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
 }
+
+.container {
+    width: 500px;
+    height: 300px;
+}
+
+.imagehp {
+    width: 100%;
+    height: auto;
+}
+
+p{
+    color: aliceblue;
+    font-size: 70px;
+}
+
 /*@import url ('fonts googleapis.com.....')*/
 
 /*p,div,span{} =/ p div span{} la différence c'est que le second va définir une regle pour les span enfant de div enfants de p*/

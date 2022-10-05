@@ -9,18 +9,50 @@
 </head>
 <body>
     <a href=""><img src="" alt=""></a>
-    <a class=section href="">Animation</a>
-    <a class=section href="">Character design</a>
-    <a class=section href="">Artistes</a>
-    <a class=section href="">AI art</a>
-    <h1>IMAGINE UN ENDROIT...</h1>
-    <h2>qui réuni tous mes intérets artistiques</h2>
-    <img src="images/tyler-edlin-tyler-edlin-fishy.jpg" alt="">
+    <div class="header">
+        <h1>IMAGINE UN ENDROIT...</h1>
+        <h2>qui réuni tous mes intérets artistiques</h2>
+    </div>
+    
+    <div id="navbar">
+        <div class="menuH">
+            <li class="section">Animation</li>
+            <li class="section">Character design</li>
+            <li class="section">Artistes</li>
+            <li class="section">Video games</li>
+            <li class="section">AI art</li>
+        </div>
+    </div>
+    <div class="container"> 
+        <img class="imagehp" src="images/tyler-edlin-tyler-edlin-fishy.jpg" alt="">
+    </div>
+    
+    <div class="container">
+        <img class="imagehp" src="" alt="">
+    </div>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae eius nam debitis quis dolor ex cum aliquid delectus doloremque exercitationem ad qui sequi, sit minima porro rem excepturi temporibus est.</p>
+
     <!--CSS Reset à quoi sa sert? permet de réinitialiser tous les styles par défauts-->
     <!--Utiliser des générateur CSS n'est pas de la triche. ça permet d'avoir une page web qi fonctionne sur tout les navigateurs. ça utilise des vendor prefixes-->
     <!--webcode tools et css3 generator-->
     <!--exemple -webkit-box-shadow: 5px 5px 5px 5px rgba(33,45,12,15)        WEBKIT est un vendor prefixe-->
     <!-- devdocks et des générateurs de CSS permettent aussi de visualiser-->
     <!--Google fonts pour créer un répertoire de fonts. Utile parce que tu peux avec un seul url faire référence à un "panier" (plusieurs) de fonts. -->
+
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script>
 </body>
 </html> 
