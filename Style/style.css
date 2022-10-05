@@ -1,0 +1,13 @@
+h1{
+    background-color: aquamarine;
+}
+
+/*<!--@import url ('fonts googleapis.com.....')-->
+
+/*p,div,span{} =/ p div span{} la différence c'est que le second va définir une regle pour les span enfant de div enfants de p*/
+
+/* class dans html va regarder dans CSS la règle exemple Salto dans CSS est class=salto*/
+
+/* id a la même logique c'est que en général c'est un élément qui n'apparait qu'une seul fois dans la page*/
+
+/* logique de cascade, le style se cumule en déscente. On fais du général et on spécifie et finalement on fais des exceptions*/
