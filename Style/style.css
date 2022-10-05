@@ -1,8 +1,23 @@
-h1{
-    background-color: aquamarine;
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&family=Trispace:wght@300&display=swap');
+
+
+body{
+    background-color: #28866A;
 }
 
-/*<!--@import url ('fonts googleapis.com.....')-->
+a{
+    font-family: 'Trispace';
+}
+
+h1{
+    font-family: 'space mono';
+    font-size: 350%;
+}
+
+h2{
+    font-family: 'Trispace';
+}
+/*@import url ('fonts googleapis.com.....')*/
 
 /*p,div,span{} =/ p div span{} la différence c'est que le second va définir une regle pour les span enfant de div enfants de p*/
 
@@ -11,3 +26,4 @@ h1{
 /* id a la même logique c'est que en général c'est un élément qui n'apparait qu'une seul fois dans la page*/
 
 /* logique de cascade, le style se cumule en déscente. On fais du général et on spécifie et finalement on fais des exceptions*/
+
